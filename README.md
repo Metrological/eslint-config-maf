@@ -17,6 +17,7 @@ To use this from your IDE:
 - [x] run script to determine most made errors
 - [ ] release to internal teams via flowdock (& mail???) met mooi verhaaltje
 - [ ] fix TODO's in SDK code
+- [ ] add Animator global?
 - [x] ignore iframe apps
 - [ ] fix stripcomments to not remove eslint comments...
 - [x] provide shortcut urls to all rule definitions for ESLint - only for internal?
