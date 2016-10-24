@@ -1,7 +1,5 @@
-# eslint-config-maf
+# [ESLint Config MAF](git.io/eslint-config-metrological "ESLint Config MAF")
 Configuration files for ESLint
-
-[ESLint Config MAF](git.io/eslint-config-metrological "ESLint Config MAF")
 
 To use this from your IDE:
 - Sublime Text: https://packagecontrol.io/packages/ESLint
