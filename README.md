@@ -24,6 +24,7 @@ To use this from your IDE:
 - [x] add bin file/link for easy starting sdk
 - [ ] make console output linkable via chrome dev tools workspaces - fix console mapping in maf?
 - [ ] update to latest node version 6.9.1
+- [ ] do including/bundling of file in eslint processor plugin - pre/post process
 - [ ] release to public maf-sdk
 - [ ] publish this config to NPM and update other repo
 - [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) https://www.sourceclear.com/
