@@ -1,4 +1,4 @@
-# [ESLint Config MAF](https://git.io/eslint-config-metrological "ESLint Config MAF")
+# [ESLint Config MAF](https://git.io/eslint-config-maf "ESLint Config MAF")
 Configuration files for ESLint
 
 To use this from your IDE:
