@@ -13,20 +13,23 @@ To use this from your IDE:
 - [/] ignore maf + ui's + sdk, etc... for now, but discuss with Albert how to handle
 - [x] run lint only on complete app file, to prevent undefined errors? requires source mapping!
 - [x] run script to determine most made errors
-- [ ] release to internal teams via flowdock (& mail???) met mooi verhaaltje
+- [x] release to internal teams via flowdock (& mail???) met mooi verhaaltje
 - [ ] fix TODO's in SDK code
-- [ ] add Animator global?
+- [ ] add Animator and Browser globals
 - [x] ignore iframe apps
 - [ ] fix stripcomments to not remove eslint comments...
+- [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
 - [x] provide shortcut urls to all rule definitions for ESLint - only for internal?
 - [ ] make console logger maf into plugin formatter for eslint
 - [ ] make formatting of console output better
+- [ ] error grouping by type/rule?
+- [ ] add packages to yarn as well
 - [x] add bin file/link for easy starting sdk
 - [ ] make console output linkable via chrome dev tools workspaces - fix console mapping in maf?
 - [ ] update to latest node version 6.9.1
 - [ ] do including/bundling of file in eslint processor plugin - pre/post process
 - [ ] release to public maf-sdk
-- [ ] publish this config to NPM and update other repo
+- [ ] publish this and other config to NPM and update other repos
 - [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) https://www.sourceclear.com/
 - [ ] add badges; https://shields.io/; https://github.com/sarbbottam/eslint-find-rules
 - [ ] verify if we can implement https://github.com/semantic-release/semantic-release
@@ -45,7 +48,8 @@ To use this from your IDE:
 - [ ] own rules;
   - provide shortcut urls to MAF docs for rule explainations
   - in separate repo so maf extends two others
-  - typeOf - but only in maf repo -> so that extends this default config
+  - typeOf
   - don't extend/overwrite/append to MAF namespace/components
   - (un)subscribe - but only in maf repo -> so that extends this default config
+  - check for unnesecary adding of components to view.elements or view.controls
   - geen maf scope functies in function die in global scope is gedefineerd, e.g. zonder var/ als statement
