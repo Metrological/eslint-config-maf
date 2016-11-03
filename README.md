@@ -15,7 +15,7 @@ To use this from your IDE:
 - [x] run script to determine most made errors
 - [x] release to internal teams via flowdock (& mail???) met mooi verhaaltje
 - [ ] fix TODO's in SDK code
-- [ ] add Animator and Browser globals
+- [x] add Animator and Browser globals
 - [x] ignore iframe apps
 - [ ] fix stripcomments to not remove eslint comments...
 - [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
