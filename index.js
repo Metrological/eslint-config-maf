@@ -2,6 +2,8 @@ module.exports = {
   extends: 'metrological',
   globals: {
     $_: true,
+    Animator: true,
+    Browser: true,
     clone: true,
     currentAppConfig: true,
     currentAppData: true,
