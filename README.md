@@ -30,7 +30,7 @@ To use this from your IDE:
 - [ ] do including/bundling of file in eslint processor plugin - pre/post process
 - [ ] release to public maf-sdk
 - [ ] publish this and other config to NPM and update other repos
-- [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) https://www.sourceclear.com/
+- [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) packagequality.com https://www.sourceclear.com/
 - [ ] add badges; https://shields.io/; https://github.com/sarbbottam/eslint-find-rules
 - [ ] verify if we can implement https://github.com/semantic-release/semantic-release
 - [ ] publish all possible to NPM
