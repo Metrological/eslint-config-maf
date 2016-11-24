@@ -49,6 +49,7 @@ To use this from your IDE:
   - provide shortcut urls to MAF docs for rule explainations
   - in separate repo so maf extends two others
   - typeOf
+  - what css properties are and aren't supported
   - don't extend/overwrite/append to MAF namespace/components
   - (un)subscribe - but only in maf repo -> so that extends this default config
   - check for unnesecary adding of components to view.elements or view.controls
