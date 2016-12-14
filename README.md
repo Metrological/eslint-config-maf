@@ -1,8 +1,6 @@
-![dependencies](https://david-dm.org/metrological/eslint-config-maf.svg)
-![dependencies](https://david-dm.org/metrological/eslint-config-maf/peer-status.svg)
-![dependencies](https://david-dm.org/metrological/eslint-config-maf/optional-status.svg)
-
-
+[![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
+[![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/peer-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
+[![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/optional-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 
 # [ESLint Config MAF](https://git.io/eslint-config-maf "ESLint Config MAF")
 Configuration files for ESLint
