@@ -1,4 +1,6 @@
 ![dependencies](https://david-dm.org/metrological/eslint-config-maf.svg)
+![dependencies](https://david-dm.org/metrological/eslint-config-maf/peer-status.svg)
+![dependencies](https://david-dm.org/metrological/eslint-config-maf/optional-status.svg)
 
 
 
