@@ -1,4 +1,5 @@
-(https://david-dm.org/metrological/eslint-config-maf.svg)
+![dependencies](https://david-dm.org/metrological/eslint-config-maf.svg)
+
 
 
 # [ESLint Config MAF](https://git.io/eslint-config-maf "ESLint Config MAF")
