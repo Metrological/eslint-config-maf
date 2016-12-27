@@ -1,9 +1,5 @@
 module.exports = {
   extends: 'metrological',
-  rules: {
-    'no-useless-escape': 'off',
-  , 'callback-return': 'off'
-  },
   globals: {
     $_: true,
     Animator: true,

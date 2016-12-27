@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-maf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configuration files for ESLint",
   "keywords": [
     "eslint",
@@ -29,13 +29,13 @@
     "url": "Metrological/eslint-config-maf"
   },
   "dependencies": {
-    "eslint-config-metrological": "Metrological/eslint-config-metrological#1.3.11"
+    "eslint-config-metrological": "Metrological/eslint-config-metrological#1.3.12"
   },
   "peerDependencies": {
     "eslint": "3.6.x"
   },
   "engines": {
-    "node": "6.9.1",
-    "npm": "3.10.8"
+    "node": "6.9.2",
+    "npm": "3.10.9"
   }
 }
