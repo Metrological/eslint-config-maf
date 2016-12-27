@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-maf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configuration files for ESLint",
   "keywords": [
     "eslint",
