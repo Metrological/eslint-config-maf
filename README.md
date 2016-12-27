@@ -13,9 +13,10 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- lijst met regels updaten vanuit eslint
 - maf changes in eslint branch importeren ivm versie in package.json
 - nagaan of stripcomments niet eslint comments verwijderd
+- before merge update maf documentation - readme
+- sdk server opschonen en dubbele file check er uit halen
 - nagaan hoe om te gaan in het dashboard met eslint comments. En/of dat dit via code-review moet blijken.
 - [ ] release to public maf-sdk
 Hi, paul was voor TC met Googlemaps bezig en we zien dat de linter het niet doet bij die app ;-)

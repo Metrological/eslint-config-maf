@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-eslint-config-metrological@Metrological/eslint-config-metrological#1.3.12:
-  version "1.3.12"
-  resolved "https://codeload.github.com/Metrological/eslint-config-metrological/tar.gz/d83e92a22bc269ad858a7bb95c6ad3efa9cd7827"
+eslint-config-metrological@Metrological/eslint-config-metrological#1.3.13:
+  version "1.3.13"
+  resolved "https://codeload.github.com/Metrological/eslint-config-metrological/tar.gz/b293b3af207181603425f68adf50065612447485"
