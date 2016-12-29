@@ -13,20 +13,21 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- sdk server opschonen en dubbele file check er uit halen
-- nagaan of stripcomments niet eslint comments verwijderd
-- nagaan hoe om te gaan in het dashboard met eslint comments. En/of dat dit via code-review moet blijken.
-- before merge update maf documentation - readme file in repo root in eslint branch if not already so
+- before release update ui's used in SDK to adhere to new standards
 - release to public maf-sdk, combined with servicemail!!!
 
 ### Also needs to be done, but later;
+- [ ] update apps in SDK to adhere to new standard
 - [ ] make sdk.js executable to so you can just run > sdk.js
+- [ ] update shortlinks, make it load dynamically and in-memory cache or load from external github config file???
 - [ ] add service mail via webhook to github/dashboard for public sdk
 - [ ] publish as npm modules
 - [ ] discuss auto-fix enable on SDK?
 - [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
 - [ ] performance optimization via async handlers for everything - all modules as well
 - [ ] code voor sdk server opnieuw schrijven met modules (die herbruikbaar zijn voor release server) en volgens release server process
+- [ ] nagaan of stripcomments niet eslint comments verwijderd
+- [ ] nagaan hoe om te gaan in het dashboard met eslint comments. En/of dat dit via code-review moet blijken.
 - [ ] make console logger maf into plugin formatter for eslint
 - [ ] make formatting of console output better
 - [ ] error grouping by type/rule?
