@@ -13,16 +13,15 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- maf changes in eslint branch importeren ivm versie in package.json
-- nagaan of stripcomments niet eslint comments verwijderd
-- before merge update maf documentation - readme
 - sdk server opschonen en dubbele file check er uit halen
+- nagaan of stripcomments niet eslint comments verwijderd
 - nagaan hoe om te gaan in het dashboard met eslint comments. En/of dat dit via code-review moet blijken.
-- [ ] release to public maf-sdk
-Hi, paul was voor TC met Googlemaps bezig en we zien dat de linter het niet doet bij die app ;-)
-catcher.js:197 GET http://localhost:8080/lint/com.metrological.app.GoogleMaps 500 (Internal Server Error)
+- before merge update maf documentation - readme file in repo root in eslint branch if not already so
+- release to public maf-sdk, combined with servicemail!!!
 
 ### Also needs to be done, but later;
+- [ ] make sdk.js executable to so you can just run > sdk.js
+- [ ] add service mail via webhook to github/dashboard for public sdk
 - [ ] publish as npm modules
 - [ ] discuss auto-fix enable on SDK?
 - [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
