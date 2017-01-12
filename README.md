@@ -13,14 +13,17 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- before release update ui's used in SDK to adhere to new standards
-- release to public maf-sdk, combined with servicemail!!!
+- before release update ui and examples apps used in SDK to adhere to new standards
+- move node and es6 groups of settings to own file
+- update node version
+- release to public maf-sdk, combined with servicemail!!! - come up with persistent solution for this.
 
 ### Also needs to be done, but later;
 - [ ] update apps in SDK to adhere to new standard
 - [ ] make sdk.js executable to so you can just run > sdk.js
 - [ ] update shortlinks, make it load dynamically and in-memory cache or load from external github config file???
 - [ ] add service mail via webhook to github/dashboard for public sdk
+- [ ] use semantic versioning and commitizen friendly or use zeit/release?
 - [ ] publish as npm modules
 - [ ] discuss auto-fix enable on SDK?
 - [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
