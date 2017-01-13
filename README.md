@@ -1,9 +1,12 @@
+# [ESLint Config MAF](https://git.io/eslint-config-maf "ESLint Config MAF")
+Configuration files for ESLint
+
 [![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 [![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/peer-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 [![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/optional-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 
-# [ESLint Config MAF](https://git.io/eslint-config-maf "ESLint Config MAF")
-Configuration files for ESLint
+[![Code Climate](https://codeclimate.com/github/Metrological/eslint-config-maf/badges/gpa.svg)](https://codeclimate.com/github/Metrological/eslint-config-maf)
+[![Issue Count](https://codeclimate.com/github/Metrological/eslint-config-maf/badges/issue_count.svg)](https://codeclimate.com/github/Metrological/eslint-config-maf)
 
 To use this from your IDE, use any of the following plugins:
 - [Sublime Text](https://packagecontrol.io/packages/ESLint "Sublime Text")
