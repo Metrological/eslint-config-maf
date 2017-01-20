@@ -5,6 +5,8 @@ Configuration files for ESLint
 [![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/peer-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 [![dependencies Status](https://david-dm.org/metrological/eslint-config-maf/optional-status.svg?style=flat-square)](https://david-dm.org/metrological/eslint-config-maf)
 
+[![NSP Status](https://nodesecurity.io/orgs/metrological/projects/5ac986fa-4f12-4e56-bda6-ed142e8c230c/badge)](https://nodesecurity.io/orgs/metrological/projects/5ac986fa-4f12-4e56-bda6-ed142e8c230c)
+
 [![Code Climate](https://codeclimate.com/github/Metrological/eslint-config-maf/badges/gpa.svg)](https://codeclimate.com/github/Metrological/eslint-config-maf)
 [![Issue Count](https://codeclimate.com/github/Metrological/eslint-config-maf/badges/issue_count.svg)](https://codeclimate.com/github/Metrological/eslint-config-maf)
 
@@ -16,14 +18,37 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- before release update ui and examples apps used in SDK to adhere to new standards
 - move node and es6 groups of settings to own file
+
+- before release update ui and examples apps used in SDK to adhere to new standards and test on STB
+  ButtonsTemplate
+  EmptyTemplate
+  ExtendTemplate
+  KeyboardTemplate
+  GridTemplate
+  RSSTemplate
+  com.metrological.app.Rooms ?
+  com.metrological.app.RunnerHTML ?
+  TabsTemplate
+  com.metrological.app.Ufo ?
+  VideoTemplate - test on STB specifically!!!
+  VideoTemplate2 - remove from SDK
+  VideoTransportTemplate - test on STB specifically!!!
+  ViewHandlingTemplate
+  com.metrological.app.YoutubeTemplate - remove key!!! + change to get channel and then all videos from channel - foodytv etc...
+  ui.AutoStart - remove from SDK
+  com.metrological.ui.Horizon
+  - run image optimizer on these apps
+  - check alle met timeout op API of correct ingevuld
+  - also check listener removal in all apps again
+
+- remove maf logs, remove nl.nl strings errors
 - update node version
+- update eslint version + rules
+- sdksupport email toevoegen aan readme
 - release to public maf-sdk, combined with servicemail!!! - come up with persistent solution for this.
 
 ### Also needs to be done, but later;
-- [ ] update apps in SDK to adhere to new standard
-- [ ] make sdk.js executable to so you can just run > sdk.js
 - [ ] update shortlinks, make it load dynamically and in-memory cache or load from external github config file???
 - [ ] add service mail via webhook to github/dashboard for public sdk
 - [ ] use semantic versioning and commitizen friendly or use zeit/release?
@@ -39,6 +64,7 @@ To use this from your IDE, use any of the following plugins:
 - [ ] error grouping by type/rule?
 - [ ] add packages to yarn as well
 - [ ] make console output linkable via chrome dev tools workspaces - fix console mapping in maf?
+- [ ] try to avoid stack output of error... only (anonymous) @VM???
 - [ ] do including/bundling of file in eslint processor plugin - pre/post process - via maf module
 - [ ] publish this and other config to NPM and update other repos
 - [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) packagequality.com https://www.sourceclear.com/
