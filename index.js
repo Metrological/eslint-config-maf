@@ -9,6 +9,7 @@ module.exports = {
     clone: true,
     currentAppConfig: true,
     currentAppData: true,
+    DateFormat: true,
     Dialog: true,
     emptyFn: true,
     error: true,
