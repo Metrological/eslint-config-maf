@@ -18,34 +18,32 @@ To use this from your IDE, use any of the following plugins:
 
 ## TODO:
 ### To make it work at all;
-- move node and es6 groups of settings to own file
-
 - before release update ui and examples apps used in SDK to adhere to new standards and test on STB
-  ButtonsTemplate
-  EmptyTemplate
-  ExtendTemplate
-  KeyboardTemplate
-  GridTemplate
-  RSSTemplate
-  com.metrological.app.Rooms ?
-  com.metrological.app.RunnerHTML ?
-  TabsTemplate
-  com.metrological.app.Ufo ?
-  VideoTemplate - test on STB specifically!!!
-  VideoTemplate2 - remove from SDK
-  VideoTransportTemplate - test on STB specifically!!!
-  ViewHandlingTemplate
-  com.metrological.app.YoutubeTemplate - remove key!!! + change to get channel and then all videos from channel - foodytv etc...
-  ui.AutoStart - remove from SDK
-  com.metrological.ui.Horizon
   - run image optimizer on these apps
   - check alle met timeout op API of correct ingevuld
   - also check listener removal in all apps again
+    ButtonsTemplate
+    EmptyTemplate
+    ExtendTemplate
+    KeyboardTemplate
+    GridTemplate
+    RSSTemplate
+    TabsTemplate
+    ViewHandlingTemplate
+    VideoTemplate - test on STB specifically!!!
+    VideoTransportTemplate - test on STB specifically!!!
+    YoutubeTemplate - remove key!!! + test on STB specifically!!!
+    Rooms - Needs fixing!
+    VideoTemplate2 - remove from SDK
+    RunnerHTML - remove from SDK
+    Ufo - remove from SDK
+
+  ui.AutoStart - remove from SDK
+  com.metrological.ui.Horizon
 
 - remove maf logs, remove nl.nl strings errors
 - update node version
 - update eslint version + rules
-- sdksupport email toevoegen aan readme
 - release to public maf-sdk, combined with servicemail!!! - come up with persistent solution for this.
 
 ### Also needs to be done, but later;
