@@ -6,6 +6,7 @@ module.exports = {
     ApplicationManager: true,
     Browser: true,
     btoa: true,
+    Canvas: true,
     clone: true,
     currentAppConfig: true,
     currentAppData: true,
