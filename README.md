@@ -15,7 +15,6 @@ To use this from your IDE, use any of the following plugins:
 - [TextMate](https://github.com/natesilva/javascript-eslint.tmbundle "TextMate")
 
 Before SDK release:
-- run image optimizer on these apps
 - check alle met timeout op API of correct ingevuld
 - also check listener removal in all apps again
   ButtonsTemplate
@@ -36,6 +35,9 @@ Before SDK release:
 
   ui.AutoStart - remove from SDK
   com.metrological.ui.Horizon
+- discuss what to do with new rules when added?
+- discuss auto-fix enable on SDK?
+- discuss all other open rules in eslint-config-metrological
 - remove maf logs, remove nl.nl strings errors
 - release to public maf-sdk, combined with servicemail!!! - come up with persistent solution for this.
 
@@ -43,7 +45,7 @@ SDK after initial release:
 - [ ] update shortlinks, make it load dynamically and in-memory cache or load from external github config file???
 - [ ] add service mail via webhook to github/dashboard for public sdk
 - [ ] use semantic versioning and commitizen friendly or use zeit/release?
-- [ ] discuss auto-fix enable on SDK?
+- [ ] use https://headwayapp.co/ for changelogs
 - [ ] use workers! https://github.com/Metrological/maf-release/blob/master/server.js
 - [ ] performance optimization via async handlers for everything - all modules as well
 - [ ] code voor sdk server opnieuw schrijven met modules (die herbruikbaar zijn voor release server) en volgens release server process
