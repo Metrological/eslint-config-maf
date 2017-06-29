@@ -32,13 +32,13 @@ Before SDK release:
   VideoTemplate2 - remove from SDK
   RunnerHTML - remove from SDK
   Ufo - remove from SDK
-
   ui.AutoStart - remove from SDK
   com.metrological.ui.Horizon
 - discuss what to do with new rules when added?
+- discuss UI lint warning/errors?
 - discuss auto-fix enable on SDK?
 - discuss all other open rules in eslint-config-metrological
-- remove maf logs, remove nl.nl strings errors
+- remove maf logs
 - release to public maf-sdk, combined with servicemail!!! - come up with persistent solution for this.
 
 SDK after initial release:
@@ -57,6 +57,6 @@ SDK after initial release:
 - [ ] make console output linkable via chrome dev tools workspaces - fix console mapping in maf?
 - [ ] try to avoid stack output of error... only (anonymous) @VM???
 - [ ] do including/bundling of file in eslint processor plugin - pre/post process - via maf module
-- [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) packagequality.com https://www.sourceclear.com/
+- [ ] add dependency indicators: david-dm, etc... for public sdk + config; https://greenkeeper.io/ https://npm-stat.com/ charts.html?package=eslint-find-rules&from=2015-08-01 https://nodei.co/npm/semantic-release/ (image) packagequality.com https://www.sourceclear.com/ https://www.codacy.com/
 - [ ] add badges; https://shields.io/; https://github.com/sarbbottam/eslint-find-rules -> functional + images
 - [ ] incorporate in dashboard/release server
